@@ -21,6 +21,6 @@ source ./run.sh
 ```
 You can expect for all the figures to populate the ```fig``` folder.
 
-> **Note:** Running this shell script will check that you have at least Python 3.7.9 and create a virtual environment via ```venv``` to download dependencies.
+> **Note:** Running this shell script will check that you have at least Python 3.8 and create a virtual environment via ```venv``` to download dependencies.
 
 ---
