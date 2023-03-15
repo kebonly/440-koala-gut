@@ -1,11 +1,11 @@
-from typing import Optional
+from typing import Optional, Dict
 import pandas as pd
 import matplotlib
 
 # VISUALIZATION PARAMETERS
 THRESHOLD_ABUNDANCE_PIE = 5 # Minimum relative abundance to be included on pie chart
 
-def plot_family_abundance(family_abundance: dict[str, float], dest_fig: Optional[str]) -> matplotlib.figure.Figure:
+def plot_family_abundance(family_abundance: Dict[str, float], dest_fig: Optional[str]) -> matplotlib.figure.Figure:
     """Produce Pie Chart of relative abundance of various Families
 
     Args:
