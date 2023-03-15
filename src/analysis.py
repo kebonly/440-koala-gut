@@ -1,6 +1,7 @@
 import pandas as pd
+from typing import Dict
 
-def calculate_cumulative_family_frequencies(raw_family_abundance: pd.DataFrame) -> dict[str, float]:
+def calculate_cumulative_family_frequencies(raw_family_abundance: pd.DataFrame) -> Dict[str, float]:
     """Calculate cumulative frequency of each Family when separated by Genus
 
     In the original data of Alfano, the Family data rows are broken up by Genus.
