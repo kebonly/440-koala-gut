@@ -10,8 +10,11 @@ python_version=$(echo $(python3 -V) | grep -po "\d\.\d.")
 echo -e "You are running Python Version $python_version"
 echo -e "${RED}NOTE: Must have Python >= 3.8 in order to run this script${NC}"
 
+echo -e "${ORANGE}Making ./fig directory..."
+mkdir -p ./fig
+
 # Create virtual environment with venv and install libraries
-echo -e "${ORANGE}Creating and activating virtual environment..."
+echo -e "Creating and activating virtual environment..."
 python3 -m venv ./venv
 source ./venv/bin/activate
 
